@@ -5,7 +5,7 @@ RUN npm -g config set user root && \
         address-rfc2821@2.0.1 \
         address-rfc2822@2.1.0 \
         addressparser@1.0.1 \
-        axios@0.22.0 \
+        axios@0.23.0 \
         basic-auth@2.0.1 \
         body-parser@1.19.0 \
         dateformat@5.0.1 \
@@ -14,7 +14,7 @@ RUN npm -g config set user root && \
         express@4.17.1 \
         express-winston@4.2.0 \
         fast-safe-stringify@2.1.1 \
-        glapi-promise@0.0.6 \
+        glapi-promise@0.0.7 \
         iconv@3.0.1 \
         iconv-lite@0.6.3 \
         ioredis@4.27.10 \
