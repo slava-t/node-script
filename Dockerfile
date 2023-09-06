@@ -1,53 +1,45 @@
-FROM node:12
+FROM node:16
 ENV NODE_PATH=/usr/local/lib/node_modules
 RUN npm -g config set user root && \
     npm install -g \
         address-rfc2821@2.0.1 \
         address-rfc2822@2.1.0 \
         addressparser@1.0.1 \
-        axios@0.23.0 \
+        axios@1.3.3 \
         basic-auth@2.0.1 \
-        body-parser@1.19.0 \
-        dateformat@5.0.1 \
-        diff@5.0.0 \
+        body-parser@1.20.1 \
+        dateformat@5.0.3 \
+        diff@5.1.0 \
         email-addresses@5.0.0 \
-        express@4.17.1 \
+        express@4.18.2 \
         express-winston@4.2.0 \
         fast-safe-stringify@2.1.1 \
-        glapi-promise@0.0.7 \
+        glapi-promise@0.0.10 \
         iconv@3.0.1 \
         iconv-lite@0.6.3 \
         ioredis@4.27.10 \
-        js-base64@3.7.2 \
+        js-base64@3.7.5 \
         js-yaml@4.1.0 \
         isemail@3.2.0 \
         lodash@4.17.21 \
-        mailparser@3.3.3 \
+        mailparser@3.6.3 \
         merge@2.1.1 \
-        multer@1.4.3 \
-        pg@8.7.1 \
-        pg-boss@6.2.1 \
-        pg-hstore@2.3.4 \
-        pg-native@3.0.0 \
+        multer@1.4.5-lts.1 \
         proper-lockfile@4.1.2 \
-        sequelize@6.6.5 \
+        sequelize@6.32.1 \
         sleep-promise@9.1.0 \
-        special-mail-lib@3.2.1 \
-        sqlite3@5.0.2 \
+        special-mail-lib@4.2.5 \
+        sqlite3@5.1.6 \
         stream-buffers@3.0.2 \
         string-template@1.0.0 \
         strip-ansi@7.0.1 \
-        table@6.7.2 \
+        table@6.8.1 \
         text-lines@0.0.2 \
         text-table@0.2.0 \
         uri-js@4.4.1 \
-        url-join@4.0.1 \
-        uuid@8.3.2 \
-        validator@13.6.0 \
-        winston@3.3.3 \
-        yaml@1.10.2 \
-        yargs@17.2.1
-
-
-
-
+        url-join@5.0.0 \
+        uuid@9.0.0 \
+        validator@13.9.0 \
+        winston@3.8.2 \
+        yaml@2.3.2 \
+        yargs@17.6.2
