@@ -4,7 +4,7 @@ RUN npm install --unsafe-perm -g \
         address-rfc2821@2.1.2 \
         address-rfc2822@2.2.0 \
         addressparser@1.0.1 \
-        axios@1.6.7 \
+        axios@1.6.8 \
         basic-auth@2.0.1 \
         body-parser@1.20.2 \
         dateformat@5.0.3 \
@@ -13,7 +13,7 @@ RUN npm install --unsafe-perm -g \
         express@4.18.2 \
         express-winston@4.2.0 \
         fast-safe-stringify@2.1.1 \
-        glapi-promise@0.0.11 \
+        glapi-promise@0.0.19 \
         iconv@3.0.1 \
         iconv-lite@0.6.3 \
         ioredis@5.3.2 \
@@ -24,6 +24,8 @@ RUN npm install --unsafe-perm -g \
         mailparser@3.6.7 \
         merge@2.1.1 \
         multer@1.4.5-lts.1 \
+        pino@8.19.0 \
+        pino-pretty@11.0.0 \
         proper-lockfile@4.1.2 \
         sequelize@6.37.1 \
         sleep-promise@9.1.0 \
