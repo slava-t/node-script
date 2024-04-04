@@ -13,7 +13,7 @@ RUN npm install --unsafe-perm -g \
         express@4.18.2 \
         express-winston@4.2.0 \
         fast-safe-stringify@2.1.1 \
-        glapi-promise@0.0.19 \
+        glapi-promise@0.0.23 \
         iconv@3.0.1 \
         iconv-lite@0.6.3 \
         ioredis@5.3.2 \
