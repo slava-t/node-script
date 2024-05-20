@@ -45,4 +45,4 @@ RUN npm install --unsafe-perm -g \
         yargs@17.7.2
 
 RUN npm install --unsafe-perm -g \
-        glapi-promise@0.0.30
+        glapi-promise@0.1.4
