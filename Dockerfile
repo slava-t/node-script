@@ -28,7 +28,6 @@ RUN npm install --unsafe-perm -g \
         proper-lockfile@4.1.2 \
         sequelize@6.37.1 \
         sleep-promise@9.1.0 \
-        special-mail-lib@4.6.4 \
         sqlite3@5.1.7 \
         stream-buffers@3.0.2 \
         string-template@1.0.0 \
@@ -45,4 +44,5 @@ RUN npm install --unsafe-perm -g \
         yargs@17.7.2
 
 RUN npm install --unsafe-perm -g \
-        glapi-promise@0.1.4
+        glapi-promise@0.1.4 \
+        special-mail-lib@4.7.3 \
